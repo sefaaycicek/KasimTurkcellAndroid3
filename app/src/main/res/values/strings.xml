@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KasimTurkcellAndroid3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bottom_menu_product_list">Product List</string>
+    <string name="bottom_menu_orders">Orders List</string>
+    <string name="bottom_menu_about">About List</string>
+    <string name="bottom_menu_settings">Settings List</string>
+</resources>
