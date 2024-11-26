@@ -9,7 +9,13 @@
         android:id="@+id/productListFragment"
         android:name="com.sirketismi.kasimturkcellandroid3.ProductListFragment"
         android:label="fragment_product_list"
-        tools:layout="@layout/fragment_product_list" />
+        tools:layout="@layout/fragment_product_list" >
+
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/productDetailFragment" />
+
+    </fragment>
     <fragment
         android:id="@+id/productDetailFragment"
         android:name="com.sirketismi.kasimturkcellandroid3.ProductDetailFragment"
